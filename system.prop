@@ -8,6 +8,12 @@ persist.sys.overlay.nightmode=true
 persist.sys.strictmode.disable=true
 persist.sys.phh.mainkeys=0
 
-fw.max_users=10
+fw.max_users=3
 persist.sys.max_profiles=10
 ro.boot.realme.lockstate=0
+
+# Fingerprint
+    persist.vendor.sys.fp.expolevel=0x80
+    persist.vendor.sys.fp.fod.location.X_Y=441,1808
+    persist.vendor.sys.fp.fod.size.width_height=197,197
+    ro.hardware.fp.fod=true
