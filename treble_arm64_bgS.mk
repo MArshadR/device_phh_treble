@@ -1,4 +1,6 @@
-$(call inherit-product, device/phh/treble/umi.mk)
+
+# Mi 10's minimal configs
+include device/phh/treble/treble.mk
 
 # Inherit Import things
 include build/make/target/product/aosp_arm64_ab.mk
