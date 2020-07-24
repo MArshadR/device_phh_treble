@@ -307,7 +307,7 @@ fi
 
 if getprop ro.vendor.build.fingerprint | grep -iq \
     -e xiaomi/beryllium/beryllium -e xiaomi/sirius/sirius \
-    -e xiaomi/dipper/dipper -e xiaomi/ursa/ursa -e xiaomi/polaris/polaris \
+    -e xiaomi/dipper/dipper -e xiaomi/ursa/ursa -e xiaomi/polaris/polaris -e xiaomi/umi/umi \
     -e motorola/ali/ali -e xiaomi/perseus/perseus -e xiaomi/platina/platina \
     -e xiaomi/equuleus/equuleus -e motorola/nora -e xiaomi/nitrogen \
     -e motorola/hannah -e motorola/james -e motorola/pettyl -e xiaomi/cepheus \
